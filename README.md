@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# 📚 Esse eu já li!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Esse eu já li!** é um portal interativo para leitores que desejam acompanhar sua jornada literária, marcar os livros que já leram, acumular pontos por leitura e conquistar troféus em um sistema de gamificação divertido e motivador.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎓 Projeto desenvolvido para o Curso: Princípios de Desenvolvimento Ágil de Software
 
-### `npm start`
+Este sistema foi desenvolvido como **Projeto Final** do curso **Princípios de Desenvolvimento Ágil de Software**, do **Instituto Tecnológico de Aeronáutica (ITA)**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Funcionalidades
 
-### `npm test`
+- ✅ Cadastro e login de usuários
+- 📖 Visualização de uma lista de livros
+- ✅ Marcar livros como lidos
+- 🧮 Sistema de pontuação:
+  - +1 ponto por livro lido
+  - +1 ponto adicional a cada 100 páginas
+    - Ex: 72 páginas → 1 ponto / 124 páginas → 2 pontos / 350 páginas → 4 pontos
+- 🏆 Troféus por estilo literário:
+  - A cada 5 livros lidos de um mesmo estilo, o usuário ganha um troféu
+  - Ex: 5 livros de "Ficção Científica" → Troféu "Leitor de Ficção Científica"
+- 🏅 Ranking com os 10 usuários com maior pontuação
+- 👤 Página pessoal do usuário com:
+  - Lista de livros lidos
+  - Pontuação total
+  - Troféus conquistados
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://reactjs.org/)
+- HTML, CSS e JavaScript
+- [React Router](https://reactrouter.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📹 Demonstração
 
-### `npm run eject`
+Assista ao vídeo de demonstração do sistema em funcionamento:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![Demonstração do sistema "Esse eu já li!"](https://img.youtube.com/vi/HphXHbpU-c0/maxresdefault.jpg)](https://www.youtube.com/watch?v=HphXHbpU-c0)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Como rodar o projeto localmente
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-## Learn More
+# Acesse a pasta do projeto
+cd esse-eu-ja-li
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Instale as dependências
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Inicie o servidor de desenvolvimento
+npm start
+```
 
-### Code Splitting
+O app estará disponível em `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🧠 Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Pull requests são bem-vindos! Para grandes mudanças, abra primeiro uma issue para discutir o que você gostaria de modificar.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 Licença
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
