@@ -50,10 +50,10 @@ Assista ao vídeo de demonstração do sistema em funcionamento:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/raquellandrade/sistema-livros.git
 
 # Acesse a pasta do projeto
-cd esse-eu-ja-li
+cd sistema-livros
 
 # Instale as dependências
 npm install
