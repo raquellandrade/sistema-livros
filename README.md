@@ -32,8 +32,9 @@ Este sistema foi desenvolvido como **Projeto Final** do curso **Princípios de D
 
 ## 🛠️ Tecnologias utilizadas
 
-- [React.js](https://reactjs.org/)
 - HTML, CSS e JavaScript
+- [React.js](https://reactjs.org/)
+- [Material UI](https://mui.com/material-ui/)
 - [React Router](https://reactrouter.com/)
 
 ---
